@@ -1,0 +1,8 @@
+api_key: zapier
+
+# Create some sample data so that you can filter in Zapier.
+# Must contain at least the 'required' fields in your Raven formset. Anything not in your
+# 'allowed' field will be ignored
+sample:
+  id: 1234
+  name: "erin"

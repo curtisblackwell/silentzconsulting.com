@@ -1,0 +1,28 @@
+ERROR|Fri, 08 May 2015 15:06:24 -0700|page|content|/jquery.geocomplete.js|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:06:25 -0700|core|ContentService|/jquery.geocomplete.js|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:07:14 -0700|page|content|/_themes/bootstrap/js/jquery.geocomplete.js|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:07:14 -0700|core|ContentService|/_themes/bootstrap/js/jquery.geocomplete.js|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:31:38 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:31:38 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:32:42 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:32:42 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:33:03 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:33:03 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:33:20 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:33:20 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:34:36 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:34:36 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:34:49 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:34:49 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:37:25 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:37:25 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:37:41 -0700|page|content|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:37:41 -0700|core|ContentService|/_themes/bootstrap/css/bigfoot-default.css|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:52:18 -0700|page|content|/map|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:52:18 -0700|core|ContentService|/map|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 15:52:18 -0700|page|content|/_themes/bootstrap/js/bigfoot.min.js|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 15:52:18 -0700|core|ContentService|/_themes/bootstrap/js/bigfoot.min.js|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 16:58:39 -0700|visitor|content|/map|127.0.0.1|dev|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+DEBUG|Fri, 08 May 2015 16:58:39 -0700|core|ContentService|/map|127.0.0.1|dev|Could not find URL in structure cache.
+ERROR|Fri, 08 May 2015 16:58:39 -0700|page|content|/_themes/bootstrap/js/bigfoot.min.js|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
+DEBUG|Fri, 08 May 2015 16:58:39 -0700|core|ContentService|/_themes/bootstrap/js/bigfoot.min.js|127.0.0.1|dev|Could not find URL in structure cache.

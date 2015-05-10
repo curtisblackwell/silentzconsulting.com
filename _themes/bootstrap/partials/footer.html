@@ -1,0 +1,12 @@
+<footer>
+    <p class="text-center">Copyright © {{ current_date format="Y" }} The Dalzells</p>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    {{ theme:js src="bigfoot.min" tag="true" }}
+    <script type="text/javascript">
+        $.bigfoot();
+    </script>
+    {{ stripe:js }}
+</footer>

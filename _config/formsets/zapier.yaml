@@ -1,0 +1,36 @@
+###########################################################################################
+#
+#  EXAMPLE RAVEN FORMSET
+#
+#  Formsets can override any default settings (raven.yaml) EXCEPT master_killswitch
+#
+###########################################################################################
+
+# Location (from root) to save form submissions
+submission_save_path: _forms/
+
+# Fields allowed to be submitted in the form, automatically
+# purging anything and everything else
+allowed:
+  - id
+  - name
+
+# You are not required to require fields, but once you do, any missing
+# from the POST will squash this submission and send a list of
+# missing fields to your {{ raven:errors }} tagpair
+required:
+  - id
+  - name
+
+submission_save_extension: yaml
+
+
+# Error messages can be mapped to your fields and passed to the
+# template upon failure. They will be available here:
+#
+# {{ raven:error }}
+#     {{ invalid }}
+#         {{ field }} : {{ message }}
+#     {{ /invalid }}
+# {{ /raven:error }}
+#

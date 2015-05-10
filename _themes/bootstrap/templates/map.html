@@ -1,0 +1,55 @@
+<nav class="navbar navbar-inverse navbar-flush">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> World of Statamic</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			<div class="nav navbar-form navbar-right">
+				{{ if { raven:error } }}
+					<p class="message">Aw snap, you have errors!</p>	
+				{{ elseif { raven:success } }}
+					<p class="message">Good job!</p>	
+				{{ else }}
+					{{ raven:form formset="map" }}
+						<fieldset>
+							<div class="form-group">
+								<input class="form-control" title="Location" placeholder="Location" type="text" name="location">
+							</div>
+
+							<div class="form-group">
+								<input data-geo="lat" class="form-control" title="Latitude" placeholder="Latitude" type="hidden" name="where[latitude]">
+							</div>
+							<div class="form-group">
+								<input data-geo="lng" class="form-control" title="Longitude" placeholder="Longitude" type="hidden" name="where[longitude]">
+							</div>
+		
+							<div class="form-group">
+								<input class="form-control" title="Name" placeholder="Name (optional)" type="text" name="name">
+							</div>
+							<div class="form-group">
+								<input class="form-control" title="Slack" placeholder="Slack ID (optional)" type="text" name="slack">
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Add to Map" class="btn btn-default">
+							</div>
+						</fieldset>
+					{{ /raven:form }}
+				{{ /if }}
+			</div>
+		</div>
+	</div>
+</nav>
+<div>
+	{{ location:map_listing folder="location" locate_with="where" }}
+{{ if name }}Name: {{ name }}</br>{{ /if }}
+{{ if slack }}Slack: <a href="https://statamic.slack.com/team/{{ slack }}">@{{ slack }}</a>{{ /if }}
+	{{ /location:map_listing }}
+</div>
+{{ location:start_maps }}

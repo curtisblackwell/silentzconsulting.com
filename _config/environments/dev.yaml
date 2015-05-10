@@ -1,0 +1,14 @@
+###########################################################################################
+#
+#  DEV ENVIRONMENT VARIABLES
+#
+###########################################################################################
+
+# Used for permalinks
+_site_url: http://szc.dev
+
+_display_debug_panel: true
+
+_log_enabled: true
+
+_log_level: debug

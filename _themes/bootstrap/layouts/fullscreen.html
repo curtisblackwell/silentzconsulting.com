@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    {{ theme:partial src="html-head" }}
+  </head>
+
+  <body>
+	{{ layout_content }}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+	{{ theme:js src="jquery.geocomplete.min" tag="true" }}
+	<script>
+		$(function(){
+			$("input[name='location']").geocomplete({details: "form",  detailsAttribute: "data-geo"});
+		});
+	</script>
+  </body>
+</html>
