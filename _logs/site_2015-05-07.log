@@ -1,8 +1,0 @@
-ERROR|Thu, 07 May 2015 10:32:04 -0700|page|content|/blog|127.0.0.1|dev|404 - Page not found. There is a bad link on <a href="/map">/map</a>.
-DEBUG|Thu, 07 May 2015 10:32:04 -0700|core|ContentService|/blog|127.0.0.1|dev|Could not find URL in structure cache.
-ERROR|Thu, 07 May 2015 11:15:51 -0700|visitor|content|/blog|127.0.0.1|dev|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-DEBUG|Thu, 07 May 2015 11:15:51 -0700|core|ContentService|/blog|127.0.0.1|dev|Could not find URL in structure cache.
-ERROR|Thu, 07 May 2015 11:46:37 -0700|visitor|content|/blog|127.0.0.1|dev|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-DEBUG|Thu, 07 May 2015 11:46:37 -0700|core|ContentService|/blog|127.0.0.1|dev|Could not find URL in structure cache.
-ERROR|Thu, 07 May 2015 19:32:46 -0700|visitor|content|/locations|127.0.0.1|dev|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-DEBUG|Thu, 07 May 2015 19:32:46 -0700|core|ContentService|/locations|127.0.0.1|dev|Could not find URL in structure cache.
